@@ -1,0 +1,58 @@
+body{
+  background-color: lightgrey;
+  font-family: arial;
+}
+
+
+aside {
+  
+  background-color: blue;
+  padding: 1rem;
+  color: white;
+  font-family: monospace;
+  text-align: center;
+  font-size: 1.2rem;
+  width: 48rem;
+  margin-left: 80px;
+  
+}
+
+.floatleft {
+    float: left;
+    border: 5px solid blue;
+    margin: 0 1rem 1rem 0;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    
+}
+
+.floatright {
+  float: right;
+  margin: 2rem 2rem 1rem 1rem;
+  border: 3px dotted blue;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  
+  
+}
+
+
+article {
+  width: 55rem;
+  border: 3px solid red;
+  margin: 0 auto;
+  
+}
+
+article:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1 {
+  text-align: center;
+  color: green;
+  font-family: monospace;
+  
+}
